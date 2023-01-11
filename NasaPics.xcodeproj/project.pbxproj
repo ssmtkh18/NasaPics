@@ -13,6 +13,19 @@
 		B34796B4296E9C0A00600037 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34796B3296E9C0A00600037 /* Preview Assets.xcassets */; };
 		B34796BB296EA33900600037 /* PodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34796BA296EA33900600037 /* PodModel.swift */; };
 		B34796BD296EA4E900600037 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34796BC296EA4E900600037 /* Network.swift */; };
+		B34796E4296EE7E600600037 /* 200-no-copyright.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796D7296EE7E600600037 /* 200-no-copyright.json */; };
+		B34796E5296EE7E600600037 /* 400-bad-request-2.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796D8296EE7E600600037 /* 400-bad-request-2.json */; };
+		B34796E6296EE7E600600037 /* get-random-pods.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796D9296EE7E600600037 /* get-random-pods.json */; };
+		B34796E7296EE7E600600037 /* 404-no-data.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796DA296EE7E600600037 /* 404-no-data.json */; };
+		B34796E8296EE7E600600037 /* get-pods.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796DB296EE7E600600037 /* get-pods.json */; };
+		B34796E9296EE7E600600037 /* nasa.sh in Resources */ = {isa = PBXBuildFile; fileRef = B34796DC296EE7E600600037 /* nasa.sh */; };
+		B34796EA296EE7E600600037 /* 403-api-key-missing.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796DD296EE7E600600037 /* 403-api-key-missing.json */; };
+		B34796EB296EE7E600600037 /* 403-api-key-invalid.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796DE296EE7E600600037 /* 403-api-key-invalid.json */; };
+		B34796EC296EE7E600600037 /* 200-empty-explanation.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796DF296EE7E600600037 /* 200-empty-explanation.json */; };
+		B34796ED296EE7E600600037 /* 200-no-urls.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796E0296EE7E600600037 /* 200-no-urls.json */; };
+		B34796EE296EE7E600600037 /* get-pod.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796E1296EE7E600600037 /* get-pod.json */; };
+		B34796EF296EE7E600600037 /* get-video.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796E2296EE7E600600037 /* get-video.json */; };
+		B34796F0296EE7E600600037 /* 400-bad-request-1.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796E3296EE7E600600037 /* 400-bad-request-1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +36,19 @@
 		B34796B3296E9C0A00600037 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B34796BA296EA33900600037 /* PodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodModel.swift; sourceTree = "<group>"; };
 		B34796BC296EA4E900600037 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B34796D7296EE7E600600037 /* 200-no-copyright.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-copyright.json"; sourceTree = "<group>"; };
+		B34796D8296EE7E600600037 /* 400-bad-request-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-2.json"; sourceTree = "<group>"; };
+		B34796D9296EE7E600600037 /* get-random-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-random-pods.json"; sourceTree = "<group>"; };
+		B34796DA296EE7E600600037 /* 404-no-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "404-no-data.json"; sourceTree = "<group>"; };
+		B34796DB296EE7E600600037 /* get-pods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-pods.json"; sourceTree = "<group>"; };
+		B34796DC296EE7E600600037 /* nasa.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = nasa.sh; sourceTree = "<group>"; };
+		B34796DD296EE7E600600037 /* 403-api-key-missing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "403-api-key-missing.json"; sourceTree = "<group>"; };
+		B34796DE296EE7E600600037 /* 403-api-key-invalid.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "403-api-key-invalid.json"; sourceTree = "<group>"; };
+		B34796DF296EE7E600600037 /* 200-empty-explanation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-empty-explanation.json"; sourceTree = "<group>"; };
+		B34796E0296EE7E600600037 /* 200-no-urls.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "200-no-urls.json"; sourceTree = "<group>"; };
+		B34796E1296EE7E600600037 /* get-pod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-pod.json"; sourceTree = "<group>"; };
+		B34796E2296EE7E600600037 /* get-video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-video.json"; sourceTree = "<group>"; };
+		B34796E3296EE7E600600037 /* 400-bad-request-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-1.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +81,7 @@
 		B34796AB296E9C0900600037 /* NasaPics */ = {
 			isa = PBXGroup;
 			children = (
+				B34796BE296EDC8500600037 /* Payloads */,
 				B34796AC296E9C0900600037 /* NasaPicsApp.swift */,
 				B34796AE296E9C0900600037 /* ContentView.swift */,
 				B34796BA296EA33900600037 /* PodModel.swift */,
@@ -71,6 +98,26 @@
 				B34796B3296E9C0A00600037 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B34796BE296EDC8500600037 /* Payloads */ = {
+			isa = PBXGroup;
+			children = (
+				B34796DF296EE7E600600037 /* 200-empty-explanation.json */,
+				B34796D7296EE7E600600037 /* 200-no-copyright.json */,
+				B34796E0296EE7E600600037 /* 200-no-urls.json */,
+				B34796E3296EE7E600600037 /* 400-bad-request-1.json */,
+				B34796D8296EE7E600600037 /* 400-bad-request-2.json */,
+				B34796DE296EE7E600600037 /* 403-api-key-invalid.json */,
+				B34796DD296EE7E600600037 /* 403-api-key-missing.json */,
+				B34796DA296EE7E600600037 /* 404-no-data.json */,
+				B34796E1296EE7E600600037 /* get-pod.json */,
+				B34796DB296EE7E600600037 /* get-pods.json */,
+				B34796D9296EE7E600600037 /* get-random-pods.json */,
+				B34796E2296EE7E600600037 /* get-video.json */,
+				B34796DC296EE7E600600037 /* nasa.sh */,
+			);
+			path = Payloads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +178,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34796E4296EE7E600600037 /* 200-no-copyright.json in Resources */,
 				B34796B4296E9C0A00600037 /* Preview Assets.xcassets in Resources */,
+				B34796E6296EE7E600600037 /* get-random-pods.json in Resources */,
+				B34796ED296EE7E600600037 /* 200-no-urls.json in Resources */,
+				B34796E9296EE7E600600037 /* nasa.sh in Resources */,
+				B34796EE296EE7E600600037 /* get-pod.json in Resources */,
+				B34796EF296EE7E600600037 /* get-video.json in Resources */,
+				B34796EB296EE7E600600037 /* 403-api-key-invalid.json in Resources */,
 				B34796B1296E9C0A00600037 /* Assets.xcassets in Resources */,
+				B34796E5296EE7E600600037 /* 400-bad-request-2.json in Resources */,
+				B34796E8296EE7E600600037 /* get-pods.json in Resources */,
+				B34796F0296EE7E600600037 /* 400-bad-request-1.json in Resources */,
+				B34796EA296EE7E600600037 /* 403-api-key-missing.json in Resources */,
+				B34796E7296EE7E600600037 /* 404-no-data.json in Resources */,
+				B34796EC296EE7E600600037 /* 200-empty-explanation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

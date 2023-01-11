@@ -7,7 +7,7 @@ import Foundation
 
 // MARK: - Pod
 struct Pod: Codable {
-    let copyright: String
+    let copyright: String?
     let date: String
     let explanation: String
     let hdurl: URL
