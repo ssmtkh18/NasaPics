@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var pod = Pod.default
     var body: some View {
-        Text("Hello, space!")
-        .padding()
+        List {
+            Text(pod.title)
+                .font(.title)
+                .bold()
+                .padding(.vertical)
+            Label(pod.copyright, systemImage: "c.circle.fill")
+            Label(pod.date, systemImage: "calendar")
+            Text(pod.explanation)
+                .padding(.vertical)
+        }
     }
 }
 
@@ -19,3 +28,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

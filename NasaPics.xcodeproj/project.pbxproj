@@ -11,6 +11,8 @@
 		B34796AF296E9C0900600037 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34796AE296E9C0900600037 /* ContentView.swift */; };
 		B34796B1296E9C0A00600037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34796B0296E9C0A00600037 /* Assets.xcassets */; };
 		B34796B4296E9C0A00600037 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34796B3296E9C0A00600037 /* Preview Assets.xcassets */; };
+		B34796BB296EA33900600037 /* PodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34796BA296EA33900600037 /* PodModel.swift */; };
+		B34796BD296EA4E900600037 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34796BC296EA4E900600037 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B34796AE296E9C0900600037 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B34796B0296E9C0A00600037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B34796B3296E9C0A00600037 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B34796BA296EA33900600037 /* PodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodModel.swift; sourceTree = "<group>"; };
+		B34796BC296EA4E900600037 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				B34796AC296E9C0900600037 /* NasaPicsApp.swift */,
 				B34796AE296E9C0900600037 /* ContentView.swift */,
+				B34796BA296EA33900600037 /* PodModel.swift */,
 				B34796B0296E9C0A00600037 /* Assets.xcassets */,
 				B34796B2296E9C0A00600037 /* Preview Content */,
+				B34796BC296EA4E900600037 /* Network.swift */,
 			);
 			path = NasaPics;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				B34796AF296E9C0900600037 /* ContentView.swift in Sources */,
 				B34796AD296E9C0900600037 /* NasaPicsApp.swift in Sources */,
+				B34796BD296EA4E900600037 /* Network.swift in Sources */,
+				B34796BB296EA33900600037 /* PodModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
