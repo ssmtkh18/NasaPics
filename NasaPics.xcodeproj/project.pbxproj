@@ -26,7 +26,20 @@
 		B34796EE296EE7E600600037 /* get-pod.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796E1296EE7E600600037 /* get-pod.json */; };
 		B34796EF296EE7E600600037 /* get-video.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796E2296EE7E600600037 /* get-video.json */; };
 		B34796F0296EE7E600600037 /* 400-bad-request-1.json in Resources */ = {isa = PBXBuildFile; fileRef = B34796E3296EE7E600600037 /* 400-bad-request-1.json */; };
+		B38A020F296FD3C100D378CA /* File+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A020E296FD3C100D378CA /* File+Extensions.swift */; };
+		B38A0211296FD59200D378CA /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A0210296FD59200D378CA /* Data+Extensions.swift */; };
+		B38A0219296FD97800D378CA /* NasaPicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38A0218296FD97800D378CA /* NasaPicsTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B38A021A296FD97800D378CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B34796A1296E9C0900600037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B34796A8296E9C0900600037;
+			remoteInfo = NasaPics;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		B34796A9296E9C0900600037 /* NasaPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,10 +62,22 @@
 		B34796E1296EE7E600600037 /* get-pod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-pod.json"; sourceTree = "<group>"; };
 		B34796E2296EE7E600600037 /* get-video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "get-video.json"; sourceTree = "<group>"; };
 		B34796E3296EE7E600600037 /* 400-bad-request-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "400-bad-request-1.json"; sourceTree = "<group>"; };
+		B38A020E296FD3C100D378CA /* File+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "File+Extensions.swift"; sourceTree = "<group>"; };
+		B38A0210296FD59200D378CA /* Data+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		B38A0216296FD97800D378CA /* NasaPicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NasaPicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38A0218296FD97800D378CA /* NasaPicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaPicsTests.swift; sourceTree = "<group>"; };
+		B38A021F296FDC5C00D378CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B34796A6296E9C0900600037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38A0213296FD97800D378CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +90,9 @@
 		B34796A0296E9C0900600037 = {
 			isa = PBXGroup;
 			children = (
+				B38A021F296FDC5C00D378CA /* README.md */,
 				B34796AB296E9C0900600037 /* NasaPics */,
+				B38A0217296FD97800D378CA /* NasaPicsTests */,
 				B34796AA296E9C0900600037 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B34796A9296E9C0900600037 /* NasaPics.app */,
+				B38A0216296FD97800D378CA /* NasaPicsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +109,7 @@
 		B34796AB296E9C0900600037 /* NasaPics */ = {
 			isa = PBXGroup;
 			children = (
+				B38A020D296FD38E00D378CA /* Extensions */,
 				B34796BE296EDC8500600037 /* Payloads */,
 				B34796AC296E9C0900600037 /* NasaPicsApp.swift */,
 				B34796AE296E9C0900600037 /* ContentView.swift */,
@@ -120,6 +149,23 @@
 			path = Payloads;
 			sourceTree = "<group>";
 		};
+		B38A020D296FD38E00D378CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B38A020E296FD3C100D378CA /* File+Extensions.swift */,
+				B38A0210296FD59200D378CA /* Data+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B38A0217296FD97800D378CA /* NasaPicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B38A0218296FD97800D378CA /* NasaPicsTests.swift */,
+			);
+			path = NasaPicsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +186,24 @@
 			productReference = B34796A9296E9C0900600037 /* NasaPics.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B38A0215296FD97800D378CA /* NasaPicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38A021C296FD97800D378CA /* Build configuration list for PBXNativeTarget "NasaPicsTests" */;
+			buildPhases = (
+				B38A0212296FD97800D378CA /* Sources */,
+				B38A0213296FD97800D378CA /* Frameworks */,
+				B38A0214296FD97800D378CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B38A021B296FD97800D378CA /* PBXTargetDependency */,
+			);
+			name = NasaPicsTests;
+			productName = NasaPicsTests;
+			productReference = B38A0216296FD97800D378CA /* NasaPicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,6 +216,10 @@
 				TargetAttributes = {
 					B34796A8296E9C0900600037 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					B38A0215296FD97800D378CA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B34796A8296E9C0900600037;
 					};
 				};
 			};
@@ -169,6 +237,7 @@
 			projectRoot = "";
 			targets = (
 				B34796A8296E9C0900600037 /* NasaPics */,
+				B38A0215296FD97800D378CA /* NasaPicsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +265,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B38A0214296FD97800D378CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,11 +282,29 @@
 				B34796AF296E9C0900600037 /* ContentView.swift in Sources */,
 				B34796AD296E9C0900600037 /* NasaPicsApp.swift in Sources */,
 				B34796BD296EA4E900600037 /* Network.swift in Sources */,
+				B38A0211296FD59200D378CA /* Data+Extensions.swift in Sources */,
 				B34796BB296EA33900600037 /* PodModel.swift in Sources */,
+				B38A020F296FD3C100D378CA /* File+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38A0212296FD97800D378CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38A0219296FD97800D378CA /* NasaPicsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B38A021B296FD97800D378CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B34796A8296E9C0900600037 /* NasaPics */;
+			targetProxy = B38A021A296FD97800D378CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B34796B5296E9C0A00600037 /* Debug */ = {
@@ -385,6 +479,42 @@
 			};
 			name = Release;
 		};
+		B38A021D296FD97800D378CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQXH98LH6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example-SieG.NasaPicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaPics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NasaPics";
+			};
+			name = Debug;
+		};
+		B38A021E296FD97800D378CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQXH98LH6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example-SieG.NasaPicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NasaPics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NasaPics";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -402,6 +532,15 @@
 			buildConfigurations = (
 				B34796B8296E9C0A00600037 /* Debug */,
 				B34796B9296E9C0A00600037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38A021C296FD97800D378CA /* Build configuration list for PBXNativeTarget "NasaPicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38A021D296FD97800D378CA /* Debug */,
+				B38A021E296FD97800D378CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

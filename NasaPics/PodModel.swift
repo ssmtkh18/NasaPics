@@ -6,7 +6,7 @@
 import Foundation
 
 // MARK: - Pod
-struct Pod: Codable {
+struct Pod: Codable, Hashable {
     let copyright: String?
     let date: String
     let explanation: String
